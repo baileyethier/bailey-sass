@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $secondary-color;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: $secondary-color;
+  }
+
+  a {
+    font-size: 1rem;
+    color: $primary-color;
+  }
+
+  img {
+    padding-left: 30px;
+    height: 350px;
+    width: 550px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    min-height: 100%;
+    display: flex;
+  }
+
+  a:link { 
+    background-color: none;
+  }
+
+  a:visited { 
+    color: $primary-color;
+}
+
+  a:hover {
+    text-decoration: underline;
+  }
+
