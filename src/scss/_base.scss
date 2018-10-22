@@ -5,13 +5,14 @@ html, body {
   }
   
   p {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: $secondary-color;
   }
 
   a {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: $primary-color;
+    list-style: none;
   }
 
   img {
@@ -21,6 +22,7 @@ html, body {
   }
   
   ul {
+    font-size: 1.3rem;
     list-style: none;
   }
   
@@ -31,6 +33,7 @@ html, body {
 
   a:link { 
     background-color: none;
+    text-decoration: none;
   }
 
   a:visited { 
@@ -39,5 +42,8 @@ html, body {
 
   a:hover {
     text-decoration: underline;
-  }
+}
 
+li {
+    list-style: none; 
+}

@@ -9,7 +9,7 @@
         }*/
         li {
         font-size: 0.85rem;
-        list-style: bullets;
+        list-style: none;
         }
         h1 {
             font-size: 62px;
@@ -20,20 +20,14 @@
         /*video {
             padding-left: 30px;
           }*/
-          
         p {
            //padding-left: 30px;
             width: 55%;
             min-width: 550px;
-          }
-          
+        }
         a {
             color: inherit;
             //padding-left: 30px;
             text-decoration: none;
-          }
-          
-        a:hover {
-            text-decoration: underline;
           }
   }

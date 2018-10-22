@@ -4,11 +4,11 @@ html, body {
   color: #FFF; }
 
 p {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #FFF; }
 
 a {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: blue; }
 
 img {
@@ -17,14 +17,16 @@ img {
   width: 550px; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  list-style-type: none; }
 
 .container {
   min-height: 100%;
   display: flex; }
 
 a:link {
-  background-color: none; }
+  background-color: none;
+  text-decoration: none; }
 
 a:visited {
   color: blue; }
@@ -41,7 +43,8 @@ a:hover {
   text-align: center; }
   .nav h4 {
     -webkit-margin-before: 0;
-    margin-left: 50px; }
+    margin-left: 50px;
+    font-size: 1.3rem; }
 
 .main {
   width: 85%;
@@ -58,7 +61,7 @@ a:hover {
     padding-left: 30px; }
   .main li {
     font-size: 0.85rem;
-    list-style: bullets; }
+    list-style-type: circle; }
   .main h1 {
     font-size: 62px;
     -webkit-margin-before: 0;
@@ -69,5 +72,3 @@ a:hover {
   .main a {
     color: inherit;
     text-decoration: none; }
-  .main a:hover {
-    text-decoration: underline; }
